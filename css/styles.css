@@ -23,7 +23,7 @@ img {
 
 /* Barra de navegação */
 nav {
-  background-color: #e60000;
+  background-color: #9c0001;
   padding: 10px 20px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
   position: sticky;
@@ -74,7 +74,7 @@ nav ul li a:focus {
 
 /* Cabeçalho */
 .header {
-  background: linear-gradient(135deg, #e60000, #ff1a1a);
+  background: linear-gradient(135deg, #9c0001, #ff1a1a);
   padding: 20px 10%;
   text-align: center;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
@@ -103,7 +103,7 @@ nav ul li a:focus {
 .header button {
   padding: 10px 20px;
   background-color: #fff;
-  color: #e60000;
+  color: #9c0001;
   border: none;
   border-radius: 25px;
   cursor: pointer;
@@ -138,7 +138,7 @@ nav ul li a:focus {
 }
 
 #banner button {
-  background: linear-gradient(90deg, #e60000, #ff1a1a);
+  background: linear-gradient(90deg, #9c0001, #ff1a1a);
   color: white;
   padding: 15px 40px;
   border: none;
@@ -151,7 +151,7 @@ nav ul li a:focus {
 }
 
 #banner button:hover {
-  background: linear-gradient(90deg, #ff1a1a, #e60000);
+  background: linear-gradient(90deg, #ff1a1a, #9c0001);
   transform: scale(1.1);
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4);
 }
@@ -215,7 +215,7 @@ nav ul li a:focus {
 }
 
 #beneficios div:hover p {
-  color: #e60000;
+  color: #9c0001;
 }
 
 /* Seção de Parceiros */
@@ -243,7 +243,7 @@ nav ul li a:focus {
 }
 
 #parceiros h2:hover {
-  color: #e60000;
+  color: #9c0001;
   transform: scale(1.05);
 }
 
@@ -255,7 +255,7 @@ nav ul li a:focus {
 }
 
 #parceiros p:hover {
-  color: #e60000;
+  color: #9c0001;
   transform: translateY(-3px);
 }
 
@@ -343,12 +343,12 @@ nav ul li a:focus {
 }
 
 #categorias .categorias div:hover p {
-  color: #e60000;
+  color: #9c0001;
 }
 
 #categorias button {
   padding: 12px 25px;
-  background-color: #e60000;
+  background-color: #9c0001;
   color: #fff;
   border: none;
   border-radius: 25px;
@@ -360,7 +360,7 @@ nav ul li a:focus {
 }
 
 #categorias button:hover {
-  background-color: #b80000;
+  background-color: #9c0001;
   transform: scale(1.05);
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
 }
@@ -400,7 +400,7 @@ footer {
 .footer-contact h3,
 .footer-hours h3,
 .footer-social h3 {
-  color: #e60000;
+  color: #9c0001;
   margin-bottom: 10px;
   font-size: 1.2rem;
   text-transform: uppercase;
@@ -515,7 +515,7 @@ html {
 
 /* Efeito de destaque na seleção de texto */
 ::selection {
-  background-color: #e60000;
+  background-color: #9c0001;
   color: #fff;
 }
 
