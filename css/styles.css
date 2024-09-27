@@ -6,7 +6,8 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Inter', Arial, sans-serif;
+  /* Adicione 'Inter' como a primeira opção */
   background-color: #f8f8f8;
   color: #333;
   line-height: 1.6;
@@ -52,6 +53,12 @@ nav ul li a:hover {
   transform: translateY(-2px);
 }
 
+/* Efeito de foco para links */
+nav ul li a:focus {
+  background-color: rgba(255, 255, 255, 0.3);
+  /* Efeito de foco para links */
+}
+
 #search {
   padding: 5px;
   border-radius: 5px;
@@ -74,7 +81,7 @@ nav ul li a:hover {
 }
 
 .logo {
-  width: 150px;
+  width: 100px;
   /* Ajuste conforme necessário */
   height: auto;
   margin-bottom: 15px;
@@ -118,7 +125,7 @@ nav ul li a:hover {
 }
 
 .banner-logo {
-  width: 200px;
+  width: 300px;
   height: auto;
   margin-bottom: 20px;
 }
@@ -501,4 +508,12 @@ html {
 ::selection {
   background-color: #e60000;
   color: #fff;
+}
+
+/* Estilo de foco para botões */
+.header button:focus,
+#banner button:focus,
+#categorias button:focus {
+  outline: 2px solid #ff1a1a;
+  /* Destaque o botão em foco */
 }
