@@ -65,20 +65,49 @@ nav ul li a:hover {
   width: 200px;
 }
 
+/* Cabeçalho */
+.header {
+  background: linear-gradient(135deg, #e60000, #ff1a1a);
+  padding: 20px 10%;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
 .logo {
-  width: 120px;
+  width: 150px;
+  /* Ajuste conforme necessário */
   height: auto;
-  margin-right: 15px;
-  vertical-align: middle;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .logo:hover {
   transform: scale(1.05);
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
 }
 
+.header h1 {
+  font-size: 1.5rem;
+  /* Ajuste de tamanho do título */
+  color: white;
+  margin-bottom: 10px;
+}
+
+.header button {
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #e60000;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.header button:hover {
+  background-color: #f8f8f8;
+}
+
+/* Seções do Banner e Benefícios */
 #banner {
   background-color: #fff;
   text-align: center;
@@ -120,7 +149,7 @@ nav ul li a:hover {
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4);
 }
 
-/* Ajuste das imagens do #beneficios */
+/* Seção de Benefícios */
 #beneficios {
   display: flex;
   justify-content: space-around;
@@ -182,7 +211,7 @@ nav ul li a:hover {
   color: #e60000;
 }
 
-/* Ajuste da seção de equipe */
+/* Seção de Parceiros */
 #parceiros {
   text-align: center;
   margin: 30px auto;
@@ -236,12 +265,6 @@ nav ul li a:hover {
 #parceiros img:hover {
   transform: scale(1.05);
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
-}
-
-@media (max-width: 768px) {
-  #parceiros img {
-    width: 100%;
-  }
 }
 
 /* Ajuste da seção #categorias */
@@ -337,7 +360,6 @@ footer {
   padding: 40px 20px;
   margin-top: 40px;
   position: relative;
-  /* Garante que o footer se mantenha na parte inferior */
   clear: both;
 }
 
@@ -398,7 +420,6 @@ footer {
 .social-icons a {
   display: inline-block;
   overflow: hidden;
-  /* Previne o transbordamento */
 }
 
 .social-icons a img {
@@ -446,7 +467,6 @@ footer {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    /* Centraliza o texto para dispositivos menores */
   }
 
   .social-icons {
@@ -458,7 +478,6 @@ footer {
   .footer-social {
     flex: unset;
     width: 100%;
-    /* Ocupa toda a largura do container */
     padding: 10px;
   }
 
@@ -471,4 +490,15 @@ footer {
     width: 30px;
     height: 30px;
   }
+}
+
+/* Suavidade ao rolar a página */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Efeito de destaque na seleção de texto */
+::selection {
+  background-color: #e60000;
+  color: #fff;
 }
